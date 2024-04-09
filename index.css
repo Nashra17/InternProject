@@ -5,6 +5,7 @@ css * {
   font-family: Inter;
 }
 
+
 /* Navbar */
 
 .nav {
@@ -56,6 +57,7 @@ css * {
   display: none;
 }
 
+
 /* .............................................. */
 
 /* Image section */
@@ -68,6 +70,8 @@ css * {
   position: relative;
   max-width: 100%;
   height: auto;
+  ;
+
 }
 
 .text-block {
@@ -107,6 +111,7 @@ css * {
   letter-spacing: -0.02em;
   text-align: left;
 }
+
 
 /* .............................................. */
 
@@ -174,6 +179,7 @@ css * {
   width: 414px;
   height: 416px;
 }
+
 
 /* .............................................. */
 
@@ -328,6 +334,9 @@ css * {
   padding-left: 16px;
 }
 
+
+
+
 /* ................................................................................................................................................... */
 
 /* RESPONSIVENESS */
@@ -345,11 +354,7 @@ css * {
     position: relative;
     max-width: 100%;
     height: auto;
-  }
-
-  .hero-image {
-    width: 100%;
-    margin-top: 77px;
+    ;
   }
 }
 
@@ -403,20 +408,11 @@ css * {
     margin: 50px 150px 50px 150px;
   }
 
-  .logo-section {
+  .logo-section{
     width: 350px;
   }
 
-  .container {
-    position: relative;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .hero-image {
-    width: 100%;
-    margin-top: 77px;
-  }
+  
 }
 
 @media screen and (max-width: 1000px) {
@@ -471,8 +467,8 @@ css * {
     height: 38px;
   }
 
-  .footer {
-    padding: 40px 40px 20px 40px;
+  .footer{
+    padding : 40px 40px 20px 40px;
   }
 
   .top-footer {
@@ -485,23 +481,11 @@ css * {
     width: 438px;
   }
 
-  .text-sec {
-    display: flex;
-  }
+  .text-sec{
+    display: flex;  }
 
-  .text-sec-1 {
+  .text-sec-1{
     margin-right: 150px;
-  }
-
-  .container {
-    position: relative;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .hero-image {
-    width: 100%;
-    margin-top: 77px;
   }
 }
 
@@ -514,7 +498,7 @@ css * {
     padding: 26px 40px 26px 40px;
   }
 
-  .nav a {
+  .nav a{
     color: #000;
   }
 
@@ -622,28 +606,17 @@ css * {
     margin: 50px 100px 50px 100px;
   }
 
-  .text-sec {
+  .text-sec{
     display: flex;
     flex-direction: column;
   }
 
-  .text-sec-1 {
+  .text-sec-1{
     margin-bottom: 20px;
   }
 
-  .bottom-footer {
+  .bottom-footer{
     width: 100%;
-  }
-
-  .container {
-    position: relative;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .hero-image {
-    width: 100%;
-    margin-top: 77px;
   }
 }
 
@@ -732,21 +705,10 @@ css * {
     margin: 50px 40px 50px 40px;
   }
 
-  .text-logo {
+  .text-logo{
     overflow-wrap: break-word;
     word-wrap: break-word;
     width: 300px;
-  }
-
-  .container {
-    position: relative;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .hero-image {
-    width: 100%;
-    margin-top: 77px;
   }
 }
 
@@ -858,19 +820,8 @@ css * {
     margin: 50px 10px 50px 10px;
   }
 
-  .text-logo {
+  .text-logo{
     width: 250px;
     text-align: center;
-  }
-
-  .container {
-    position: relative;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .hero-image {
-    width: 100%;
-    margin-top: 77px;
   }
 }
