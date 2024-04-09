@@ -1,0 +1,817 @@
+css * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+
+/* Navbar */
+
+.nav {
+  position: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 77px;
+  padding: 26px 80px 26px 80px;
+  background: #6b3cc9;
+}
+
+#logo {
+  width: auto;
+  height: 25px;
+  top: -11.11px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.nav,
+.nav .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+.nav .nav-links {
+  column-gap: 28px;
+  list-style: none;
+}
+
+.nav .navOpenBtn,
+.nav .navCloseBtn {
+  display: none;
+}
+
+
+/* .............................................. */
+
+/* Image section */
+.hero-image {
+  width: 100%;
+  height: 700px;
+  gap: 0px;
+  margin-top: 53px;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+  background-image: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79 100%);
+  color: white;
+  padding: 24px 40px 32px 40px;
+  width: 630px;
+  height: auto;
+  gap: 20px;
+  opacity: 0px;
+}
+
+.txt {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 214px;
+  height: auto;
+  border-radius: 4px 0px 0px 0px;
+  padding: 12px 20px 12px 20px;
+  font-size: 14px;
+  line-height: 14px;
+  background: #f28d35;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Inter;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+
+/* .............................................. */
+
+/* body content */
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 1064px;
+  height: 414px;
+  width: 100%;
+}
+
+#img-1 {
+  width: 414px;
+  height: 414px;
+}
+
+.text-box {
+  width: 650px;
+}
+
+.txt-content {
+  width: 542px;
+  height: 187px;
+}
+
+.topic {
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.inner-txt {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.btn-1 {
+  width: 129px;
+  height: 38px;
+  border-radius: 4px 0px 0px 0px;
+  padding: 12px 20px 12px 20px;
+  font-size: 14px;
+  line-height: 14px;
+  background: #f28d35;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Inter;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fff;
+}
+
+#img-2 {
+  width: 414px;
+  height: 416px;
+}
+
+
+/* .............................................. */
+
+/* Footer */
+.section-faq {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 300px 50px 300px;
+}
+
+.faq-topic {
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: center;
+  color: #6b3cc9;
+  margin-bottom: 20px;
+}
+
+.faq-div-1 {
+  padding: 24px;
+  border-radius: 7px 0px 0px 0px;
+  background-color: #faf8ff;
+  margin-bottom: 15px;
+}
+
+.faq-1-top {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+
+.faq-1q {
+  display: flex;
+  color: #6b3cc9;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.faq-1-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #6f6c90;
+}
+
+.faq-div-2-3 {
+  padding: 24px;
+  border-radius: 7px 0px 0px 0px;
+  background-color: #faf8ff;
+  margin-bottom: 15px;
+}
+
+.faq-2-3-text {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+
+.faq-2-3-q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #6b3cc9;
+  padding: 40px 80px 20px 80px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.text-logo {
+  word-wrap: break-word;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+}
+
+.logo-section {
+  width: 420px;
+}
+
+.footer-text-top {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25.41px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.footer-txt {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+#footer-txt {
+  margin-bottom: 10px;
+}
+
+.text-sec {
+  display: flex;
+}
+
+.bottom-footer {
+  display: flex;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  border-top: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin: auto;
+  width: 630px;
+}
+
+#pri-policy {
+  padding-right: 16px;
+  border-right: 1px solid white;
+}
+
+#terms {
+  padding-left: 16px;
+}
+
+
+
+
+/* ................................................................................................................................................... */
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 3000px) {
+  .nav a {
+    color: #fff;
+  }
+
+  a {
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    color: #fff;
+    padding: 26px 60px 26px 60px;
+  }
+
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text-block {
+    width: 622px;
+    height: auto;
+  }
+
+  .section {
+    width: 896px;
+    height: 346px;
+    width: 100%;
+  }
+
+  #img-1 {
+    width: 346px;
+    height: 346px;
+  }
+
+  #img-2 {
+    width: 346px;
+    height: 348px;
+  }
+
+  .text-box {
+    width: 550px;
+  }
+
+  .txt-content {
+    width: 539px;
+    height: 187px;
+  }
+
+  .topic {
+    width: 507px;
+    height: 33px;
+  }
+
+  .btn-1 {
+    width: 129px;
+    height: 38px;
+  }
+
+  .section-faq {
+    margin: 50px 150px 50px 150px;
+  }
+
+  .logo-section{
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav {
+    color: #fff;
+    padding: 26px 60px 26px 60px;
+  }
+
+  .text-block {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+  }
+
+  .txt {
+    overflow-wrap: break-word;
+  }
+
+  .section {
+    width: 688px;
+    height: 275px;
+    width: 100%;
+  }
+
+  #img-1 {
+    width: 275px;
+    height: 275px;
+  }
+
+  #img-2 {
+    width: 275px;
+    height: 276px;
+  }
+
+  .text-box {
+    width: 413px;
+  }
+
+  .txt-content {
+    width: 393px;
+    height: 239px;
+  }
+
+  .inner-txt-2 {
+    width: 393px;
+  }
+
+  .btn-1 {
+    width: 129px;
+    height: 38px;
+  }
+
+  .footer{
+    padding : 40px 40px 20px 40px;
+  }
+
+  .top-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-section {
+    margin-bottom: 40px;
+    width: 438px;
+  }
+
+  .text-sec{
+    display: flex;  }
+
+  .text-sec-1{
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav .navOpenBtn,
+  .nav .navCloseBtn {
+    display: block;
+  }
+  .nav {
+    padding: 26px 40px 26px 40px;
+  }
+
+  .nav .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    max-width: 280px;
+    width: 100%;
+    padding-top: 15px;
+    row-gap: 30px;
+    flex-direction: column;
+    background-color: #ffffff;
+    transition: all 0.4s ease;
+    z-index: 100;
+    color: rgb(0, 0, 0);
+    align-items: flex-start;
+    padding-left: 15px;
+  }
+
+  .nav.openNav .nav-links {
+    right: 0;
+  }
+
+  .nav .navOpenBtn {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .nav .navCloseBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .text-block {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 572px;
+    align-items: center;
+  }
+
+  #section-2 {
+    margin-top: 200px;
+  }
+
+  #img-1 {
+    width: 275px;
+    height: 275px;
+  }
+
+  #img-2 {
+    width: 275px;
+    height: 276px;
+    margin-top: -530px;
+  }
+
+  .topic {
+    width: 300px;
+    overflow-wrap: break-word;
+    margin-bottom: 40px;
+  }
+
+  .text-box {
+    width: 335px;
+    overflow-wrap: break-word;
+  }
+
+  .txt-content {
+    width: 100%;
+  }
+
+  .inner-txt-1 {
+    text-align: center;
+  }
+
+  .inner-txt-2 {
+    width: 393px;
+  }
+
+  .btn-1 {
+    width: 129px;
+    height: 38px;
+  }
+
+  .section-faq {
+    margin: 50px 100px 50px 100px;
+  }
+
+  .text-sec{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-sec-1{
+    margin-bottom: 20px;
+  }
+
+  .bottom-footer{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav .navOpenBtn,
+  .nav .navCloseBtn {
+    display: block;
+  }
+
+  .nav {
+    padding: 26px 20px 26px 20px;
+  }
+
+  .nav .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
+    padding-top: 15px;
+    row-gap: 30px;
+    flex-direction: column;
+    background-color: #ffffff;
+    transition: all 0.4s ease;
+    z-index: 100;
+    color: #000;
+  }
+
+  .nav.openNav .nav-links {
+    right: 0;
+  }
+
+  .nav .navOpenBtn {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .nav .navCloseBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .text-block {
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    padding: 24px 20px 32px 20px;
+  }
+
+  .txt {
+    width: 335px;
+    height: 180px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .section {
+    text-align: center;
+  }
+
+  .topic {
+    text-align: center;
+  }
+
+  .inner-txt {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+  }
+
+  .section-faq {
+    margin: 50px 40px 50px 40px;
+  }
+
+  .text-logo{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .nav .navOpenBtn,
+  .nav .navCloseBtn {
+    display: block;
+  }
+
+  .nav {
+    padding: 26px 20px 26px 20px;
+  }
+
+  .nav .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    max-width: 200px;
+    width: 100%;
+    padding-top: 15px;
+    row-gap: 30px;
+    flex-direction: column;
+    background-color: #ffffff;
+    transition: all 0.4s ease;
+    z-index: 100;
+    color: #000;
+  }
+
+  .nav.openNav .nav-links {
+    right: 0;
+  }
+
+  .nav .navOpenBtn {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .nav .navCloseBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .text-block {
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    padding: 20px 10px 20px 20px;
+  }
+
+  .txt {
+    width: auto;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 572px;
+    align-items: center;
+  }
+
+  #section-2 {
+    margin-top: 200px;
+  }
+
+  #img-1 {
+    width: 270px;
+    height: 270px;
+  }
+
+  #img-2 {
+    width: 270px;
+    height: 271px;
+    margin-top: -530px;
+  }
+
+  .topic {
+    overflow-wrap: break-word;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .text-box {
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+
+  .txt-content {
+    width: 100%;
+  }
+
+  .inner-txt {
+    padding: 15px 5px 15px 5px;
+  }
+  .section-faq {
+    margin: 50px 10px 50px 10px;
+  }
+
+  .text-logo{
+    width: 250px;
+    text-align: center;
+  }
+}
