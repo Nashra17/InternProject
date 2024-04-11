@@ -17,8 +17,6 @@ css * {
   height: 77px;
   padding: 26px 80px 26px 80px;
   background: #6b3cc9;
-  justify-content: space-between;
-
 }
 
 #logo {
@@ -33,6 +31,10 @@ css * {
 .nav .nav-links {
   display: flex;
   align-items: center;
+}
+
+.nav {
+  justify-content: space-between;
 }
 
 .nav a {
@@ -99,16 +101,16 @@ css * {
   text-align: left;
 }
 
-.container {
-  position: relative;
-  max-width: 100%;
-  height: auto;
-}
+  .container {
+    position: relative;
+    max-width: 100% !important;
+    height: auto;
+  }
 
-.hero-image {
-  width: 100%;
-  margin-top: 77px;
-}
+  .hero-image {
+    width: 100%;
+    margin-top: 77px;
+  }
 
 /* .............................................. */
 
