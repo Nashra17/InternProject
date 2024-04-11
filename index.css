@@ -5,6 +5,10 @@ css * {
   font-family: Inter;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 
 /* Navbar */
 
